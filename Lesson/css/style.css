@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+@font-face{
+    font-family: Artful;
+    src: url("../fonts/ArtfulBeauty.otf");
+}
+
+@font-face{
+    font-family: Amydor;
+    src: url(../fonts/Amydor.otf);
+}
+
+
+p{
+    /* font-style: oblique; */
+    /* font-size: 30px; */
+    /* font-weight: bold; */
+    /* font-family: Artful; */
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    /* font-size:16px */
+    /* font-weight: normal; */
+}
+
+/* body{
+    font-size: 200%;
+} */
+
+.fa-accessible-icon{
+    font-size: 150px;
+    color: green;
+}
+
+.fa-facebook{
+    font-size: 30px;
+    color: blue;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-left: 50px;
+    padding: 50px;
+    border: 2px solid red;
+}
